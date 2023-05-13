@@ -1,0 +1,7 @@
+local_downloads_root_folder: 'downloads'
+remote_folder_to_download: 'Exports'
+store_files_by_session: False
+sftp_credentials:
+  host: 'somecompany.domain.com'
+  username: 'A_USERNAME'
+  password: 'SOME_PASSWORD'

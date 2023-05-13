@@ -1,0 +1,6 @@
+downloads
+.venv
+simple_async.py
+__pycache__
+config.yaml
+logs/*
