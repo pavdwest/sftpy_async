@@ -1,10 +1,11 @@
 # Overview
 
-A simple utility that asynchronously downloads files from a remote SFTP folder
+A simple utility that asynchronously downloads files from a remote SFTP folder.
+Can significantly speed up the download of a large number of files.
 
 # How to Use
 
-1. Clone the repo: `git clone git@github:pavdwest/sftpy_async.git
+1. Clone the repo: `git clone git@github:pavdwest/sftpy_async.git`
 2. `cd sftpy_async`
 3. Create virtual env: `pip3 -m venv .venv`
 4. Activate venv: `source ./venv/bin/activate`
