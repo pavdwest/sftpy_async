@@ -31,7 +31,7 @@ async def download_file(sftp, file: str, localdir: str, idx: int, total_count: i
             raise ex
 
 
-async def run_client():
+async def main():
     async with asyncssh.connect(
         config.sftp_host, 
         username=config.sftp_username, 
@@ -48,4 +48,4 @@ async def run_client():
 
     logger.info('All done')
 
-asyncio.run(run_client())
+asyncio.run(main())
