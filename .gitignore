@@ -2,5 +2,7 @@ downloads
 .venv
 simple_async.py
 __pycache__
+config.*.yaml
 config.yaml
+!config.example.yaml
 logs/*
